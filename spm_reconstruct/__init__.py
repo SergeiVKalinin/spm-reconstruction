@@ -1,9 +1,8 @@
-from .metrics   import (rmse, mae, rmse_by_line, rmse_by_region,
-                         ssim, psd_rmse, psd_curves,
-                         coverage, mean_uncertainty, nll,
-                         classifier_auc, classifier_fpr, classifier_fnr)
-from .evaluator import Evaluator, CollectionReport
-from .report    import ComparisonTable
+from spm_eval import (rmse, mae, rmse_by_line, rmse_by_region,
+                      ssim, psd_rmse, psd_curves,
+                      coverage, mean_uncertainty, nll,
+                      classifier_auc, classifier_fpr, classifier_fnr,
+                      Evaluator, CollectionReport, ComparisonTable)
 
 MODEL_REGISTRY = {}
 
