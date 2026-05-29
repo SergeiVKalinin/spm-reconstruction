@@ -23,4 +23,5 @@ def _try_import(module_path, class_name, model_id):
         pass
 
 _try_import('.M01_S2_C0_G0_P1.model', 'M01', '(S2, C0, G0, P1)')
+_try_import('.M02_S2_C0_G0_P2.model', 'M02', '(S2, C0, G0, P2)')
 _try_import('.M27_S6_CT_GC_P1.model', 'M27', '(S6, CT, GC, P1)')
